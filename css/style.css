@@ -1,0 +1,194 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-y: scroll;
+	overflow-x: hidden;
+}
+.bg, .bg2, .bg3, .bg4, .bg5, .bg6{
+	    /* Full height */
+    height: auto; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 6vw;
+}
+.bg {
+    /* The image used */
+	background-image: url("../img/thandarCircle.JPG");
+	backdrop-filter: blur(8px);
+}
+.bg2 {
+    /* The image used */
+    background: rgb(180, 210, 247);
+}
+.bg3 {
+    /* The image used */
+    background-color: #DDDFE4;
+}
+
+.bg4 {
+    /* The image used */
+    background: linear-gradient(to right, rgb(166, 208, 252), rgb(2, 57, 117));
+}
+.bg5 {
+    /* The image used */
+    background-color: black;
+    color:white;
+}
+.bg6 {
+    /* The image used */
+    background: radial-gradient(circle,rgb(191, 209, 226),#AACBF5,#6587B7);
+    color:#163972;
+}
+
+#container{
+	margin: 0;
+	padding: 0;
+}
+#divIntro, #divPersonal, #divEduAndSkill, #divExperience, #divPhotos, #divCover{
+	position: relative;
+	padding-bottom: 50px;
+	height: auto;
+	min-width: 500px;
+}
+#divIntro1{
+	
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	min-height: 650px;
+}
+.pIntroword1{
+	font-size:30px;
+	
+}
+.pIntroword2{
+	font-size:50px;
+		
+}
+.nametitle{
+	text-align: center;
+	margin:auto;
+}
+#divPersonal1, #divPersonal2, #divPersonal3, #divPersonal4, #divEduAndSkill1, #ßdivEduAndSkill2{
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+	display: block;
+	margin: auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	min-width: 500px;
+}
+#divEduAndSkill2, #divEduAndSkill3, #divEduAndSkill4{
+	padding-left: 100px;
+	padding-top: 80px;
+}
+.intro{
+	
+	position: relative;
+	height: 100%;
+	display: inline;
+}
+.pIntroPhrase{
+	position: relative;
+}
+.mflag{
+	
+	width: 200px;
+	height: 130px;
+	
+}
+.subTitleCtrl{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	text-align: center;
+	margin:auto;
+	
+}
+.personalImg{
+	margin-left: 30px;
+}
+.eduandskillLeft{
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+	padding-left: 50px;
+}
+#divExperience1, #divExperience2{
+	color: rgb(217, 232, 247);
+	margin:auto;
+	position: relative;
+	
+}
+#divExperience2{
+	padding-left: 5vw;
+	padding-right: 5vw;	
+}
+.careerTable{
+	position: relative;
+}
+.careerTable table tr th{
+	
+	color: #183B74;
+}
+.careerTable table tr:hover{
+	background: #5173A6;
+	color: #183B74;
+}
+#divPhotos1, #divPhotos2, #divPhotos3, #divPhotos4{
+	margin:auto;
+	left: 0;
+	right: 0;
+}
+#divPhotos2, #divPhotos3, #divPhotos4{
+	margin:0;
+	padding: 0;
+}
+#divPhotos1{
+	margin-top: 2vw;
+}
+#divPhotos2{ 
+	padding-top: 30px;
+}
+.divphotorow{
+	margin-left: 8vw;
+	margin-right: 8vw;
+}
+.photoCtrl{
+	width: 26.1vw;
+	height: 18.27vw;
+}
+.photoCtrl2{
+	width: 19.5vw;
+	height: 13.65vw;
+}
+.photoCtrl3{
+	width: 15.53vw;
+	height: 10.87vw;
+}
+#divCover1, #divCover2, #divCover3 span, #divCover4{
+	margin:auto;
+	left: 0;
+	right: 0;
+	margin-top: 2vw;
+}
+.pAboutSelf{
+	font-family: "Times New Roman", Times, serif;
+	font-size:18px;
+}
+.pContactMsg{
+	font-family: "Arial", Times, serif;
+	font-size:16px;
+}
+.contactImg{
+	width: 5vw;
+	height: 5vw;
+	margin-right: 3vw;
+}
+.divCtrlLogo{
+	display: inline-block;
+}
+*.divMainControl{
+	
+	width: 100%;
+}
