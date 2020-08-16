@@ -80,9 +80,13 @@ body, html {
 	padding-right: 100px;
 	min-width: 500px;
 }
-#divEduAndSkill2, #divEduAndSkill3, #divEduAndSkill4{
+#divEduAndSkill2{
 	padding-left: 100px;
 	padding-top: 30px;
+}
+#divEduAndSkill3, #divEduAndSkill4{
+	padding-left: 100px;
+	padding-top: 5px;
 }
 .intro{
 	
